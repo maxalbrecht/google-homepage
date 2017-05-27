@@ -1,0 +1,76 @@
+html {
+  margin: 1em auto 20em auto;
+  text-align: center;
+  width: auto;
+}
+body {width: auto; margin: 0 auto auto auto;}
+img {margin: 0 0 1em 0;}
+
+.navbarparent {
+  width:auto;
+  display: block;
+  margin: 0 auto 5em auto;
+  position:static;
+}
+
+.navbar {
+  display: inline;
+  margin: 0 0 5em auto;
+  width: 15em;
+  position: relative;
+
+  left:25em;
+}
+.navbarelement {
+  width: 5em;
+  text-decoration: none;
+  display: inline;
+}
+.navbarelement a {
+  text-decoration: none;
+  margin: 0 0 0 1em;
+}
+.navbarelement a:hover {
+  text-decoration: underline;
+}
+
+a:visited{
+  color: #609;
+}
+
+.searchdiv {
+  width: 25em;
+  height: 3em;
+  margin: auto;
+}
+
+.searchform {
+  width: 33em
+  height: 5em;
+  margin: auto;
+}
+.searchbar {
+  display: block;
+  width: 32em;
+  height: 2em;
+  margin:auto auto;
+  padding: 10px 10px;
+  line-height: 28px;
+
+}
+.submit {
+  width: 10em;
+  height:3em;
+  background: #f2f2f2;
+  color: #757575;
+  11px 4px;
+  border-style: none;
+  font-family:arial,sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 1px;
+}
+.submit:hover {
+  border: 1px solid #c6c6c6;
+  color: #222
+}
