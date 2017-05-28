@@ -37,12 +37,12 @@ img {margin: 0 0 1em 0;}
 .navbarelement a:hover {
   text-decoration: underline;
 }
-.signin {
+button {
+  height: 2em;
+  border-style: none;
   background: #4285f4;
+  color: white;
   font-weight: bold;
-}
-.signin a {
-  margin: 1em 1em 1em 1em;
 }
 
 a:visited{
@@ -104,10 +104,16 @@ a:visited{
   margin-left: 1.5em;
   display: inline;
   margin-right: 30em;
+  position:absolute;
+  left:0;
+  bottom: .6em;
 }
 .r-foot {
   margin-right: 1.5em;
   display: inline;
+  position:absolute;
+  right:0;
+  bottom: .6em;
 }
 
 .footelement {
